@@ -4,7 +4,7 @@ import headshot from "@/assets/headshot.png";
 
 export const Header = () => {
   return (
-    <header className="py-10">
+    <header className="py-10 sticky">
       <div className="container flex items-center">
         <Image
           src={headshot}
@@ -14,6 +14,7 @@ export const Header = () => {
           className="rounded-full object-cover shadow-[0px_0px_20px_#E8E8E8]"
         />
       </div>
+
     </header>
   );
 };
