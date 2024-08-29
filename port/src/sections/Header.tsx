@@ -4,8 +4,8 @@ import headshot from "@/assets/headshot.png";
 
 export const Header = () => {
   return (
-    <header className="py-10 sticky">
-      <div className="container flex items-center">
+    <header className="md:py-10 sm:py-5 sticky">
+      <div className="container flex items-center justify-between">
         <Image
           src={headshot}
           alt="Memoji"
@@ -13,25 +13,19 @@ export const Header = () => {
           height={50} // Adjust the width and height as needed
           className="rounded-full object-cover shadow-[0px_0px_20px_#E8E8E8]"
         />
-        <nav className="flex justify-end text-right gap-5">
-          <a href="https://www.linkedin.com/in/milton-mupfumira/" target="_blank" rel="noopener noreferrer" className="text-sm">
-            <div className="text-black">
+        <nav className="flex gap-5">
+          <a href="" target="_blank" rel="noopener noreferrer" className="text-sm">
+            <div className="text-black/40 hover:text-black hover-transition duration-300">
               About
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/milton-mupfumira/" target="_blank" rel="noopener noreferrer" className="text-sm">
-            <div className="text-black">
-              Ideas
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/milton-mupfumira/" target="_blank" rel="noopener noreferrer" className="text-sm">
-            <div className="text-black">
-              Read CV
+          <a href="" target="_blank" rel="noopener noreferrer" className="text-sm">
+            <div className="text-black/40 hover:text-black hover-transition duration-300">
+              Craft
             </div>
           </a>
         </nav>
       </div>
-
     </header>
   );
 };
