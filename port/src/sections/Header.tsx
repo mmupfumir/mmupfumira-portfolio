@@ -11,7 +11,7 @@ export const Header = () => {
           alt="Memoji"
           width={60} // Adjust the width and height as needed
           height={60} // Adjust the width and height as needed
-          className="rounded-full object-cover shadow-[0px_0px_20px_#E8E8E8]"
+          className="rounded-3xl object-cover shadow-[0px_0px_20px_#E8E8E8]"
         />
       </div>
 
