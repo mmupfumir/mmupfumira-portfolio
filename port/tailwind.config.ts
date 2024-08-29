@@ -10,7 +10,7 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "10px",
+        DEFAULT: "20px",
         lg: "80px",
       },
       screens: {
@@ -25,8 +25,10 @@ const config: Config = {
       lg: "1200px",
     },
     extend: {
-      colors:{},
+      colors: {
+      }
     },
   },
   plugins: [],
 };
+export default config;
