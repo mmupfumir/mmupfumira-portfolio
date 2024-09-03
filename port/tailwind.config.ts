@@ -5,13 +5,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
       center: true,
       padding: {
-        DEFAULT: "20px",
-        lg: "200px",
+        DEFAULT: "10px",
+        lg: "300px",
       },
       screens: {
         sm: "375px",
