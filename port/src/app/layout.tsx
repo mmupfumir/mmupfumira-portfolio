@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(inter.className, "bg-[#F5F5F5] text-black antialiased")}>
+      <body className={twMerge(inter.className, "bg-[#000000] text-white antialiased")}>
         {children}
       </body>
     </html>
