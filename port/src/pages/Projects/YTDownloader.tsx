@@ -17,8 +17,7 @@ export default function YTDownloader() {
 
       <div className="text-white text-lg md:text-xl tracking-tighter font-medium">Youtube MP4 Downloader</div>
 
-      <p className="text-white/80 text-xs md:text-sm tracking tighter pt-5">As a residential assistant, I've seen the frustration caused by misplaced student ID cards and lockouts. These issues highlight the need for a more reliable, accessible, and secure identification method.</p>
-      <p className="text-white/80 text-xs md:text-sm tracking tighter pt-3">The digital student ID for Apple Wallet transforms campus credential management, eliminating the hassle of lost cards and leveraging Apple's security features like Face ID, Touch ID, and encryption. This innovative solution redefines campus life by combining security, convenience, and sustainability, offering a smarter way to manage student IDs in the digital age.</p>
+      <p className="text-white/80 text-xs md:text-sm tracking tighter pt-5">A fun first project for beginmer python developers. This python script uses the Pytube library to download videos from youtube.</p>
     </section>
   );
 }

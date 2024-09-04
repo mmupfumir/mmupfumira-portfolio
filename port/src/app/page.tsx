@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  useLocation
 } from "react-router-dom";
 
 import { Header } from "@/sections/Header";
@@ -13,6 +14,7 @@ import Resume from "@/pages/Resume";
 import YTDownloader from "@/pages/Projects/YTDownloader";
 import ID from "@/pages/Projects/ID";
 export default function Page(){
+
   return (
     <Router>
       <Header />

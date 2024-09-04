@@ -17,7 +17,7 @@ export const ProjectsList = () => {
           <div className="flex flex-col text-white/80">
             <NavLink to="id" className="hover:text-white/50 transition duration-300 flex flex-row items-center gap-1">
               <span className="text-white"><FaApple /></span>
-              Digital Student ID
+              Music Dynamic Island <span className="text-white/30">Clone</span>
             </NavLink>
             <NavLink to="ytdownloader" className="hover:text-white/50 transition duration-300">Youtube MP4 Downloader</NavLink>
           </div>
