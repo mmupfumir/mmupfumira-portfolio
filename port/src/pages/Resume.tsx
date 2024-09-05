@@ -4,7 +4,19 @@ export default function Resume() {
   return (
     <main>
         <h1 className="text-white text-4xl tracking-tighter font-sans font-semibold">CV</h1>
-        <h1 className="text-white text-lg pb-6 tracking-tighter">Work</h1>
+
+        <h1 className="text-white text-xs pt-16 pb-5 tracking-tighter">Education</h1>
+
+
+        <div className="flex justify-between pt-3 pb-3">
+          <div>
+            <h1 className="text-sm text-white/80">University of Hartford</h1>
+            <h1 className="text-xs text-white/50 pt-1">BS Computer Science | Minor. Architecture</h1>
+          </div>
+          <h1 className="text-xs text-white/50">Class of 25'</h1>
+        </div>
+
+        <h1 className="text-white text-xs pt-8 pb-5 tracking-tighter">Work</h1>
 
         <div className="flex justify-between pt-3 pb-3 border-b border-white/10">
           <div>
@@ -34,7 +46,7 @@ export default function Resume() {
         </div>
 
 
-        <h1 className="text-white text-lg pt-24 pb-6 tracking-tighter">Extra Curriculars</h1>
+        <h1 className="text-white text-xs pt-8 pb-5 tracking-tighter">Extra Curriculars</h1>
 
 
           <div className="flex justify-between pt-3 pb-3 border-b border-white/10">
@@ -61,7 +73,7 @@ export default function Resume() {
             <h1 className="text-xs text-white/50">2023</h1>
           </div>
 
-          <div className="flex justify-between pt-3 pb-6">
+          <div className="flex justify-between pt-3 pb-16">
             <div>
               <h1 className="text-sm text-white/80">Save our Streets</h1>
               <h1 className="text-xs text-white/50 pt-1 ">Python Instructor</h1>

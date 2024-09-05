@@ -1,11 +1,7 @@
 import { MdArrowBackIosNew } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import Image from "next/image";
-import { GiPauseButton } from "react-icons/gi";
-import { BsSkipForwardFill } from "react-icons/bs";
-import { BsSkipBackwardFill } from "react-icons/bs";
-import { GiSoundWaves } from "react-icons/gi";
-import music from "@/assets/music.png";
+import { ProjectNav } from "@/components/projectnav";
+import { FaApple } from "react-icons/fa";
 
 export default function ID() {
   return (
@@ -17,40 +13,26 @@ export default function ID() {
         <div className="text-white/40 text-sm">Back</div>
       </NavLink>
 
-      <div className="text-white text-lg md:text-xl tracking-tighter font-medium">
-        Apple Music Widget
+      <div className="transition duration-300 flex flex-row items-center gap-1">
+        <span className="text-white"><FaApple /></span>
+        Music Dynamic Island <span className="text-white/50">Nav</span>
       </div>
+      <h1 className="text-xs text-white/80">September 2024</h1>
 
       <p className="text-white/80 text-xs md:text-sm py-5">
-        A fun project for new React Developers.
+        A creative component ideally for a Musician's Porfolio website, this Apple Music Dynamic Island clone functions as a navigation bar,
+        with the skip button cycling through different sections and the play button offering a smooth transition into the selected page.
+      </p>
+      <p className="text-white/80 text-xs md:text-sm pb-5">
+        With this project, I dove deeper into responsive design and interactive UI elements, focusing on clean, functional code and intuitive navigation.
+        It’s a simple yet effective showcase of how design and interaction can come together to create a fluid user experience.
       </p>
 
+      <div className="p-10 bg-white/5 rounded-md ring-1 ring-white/10">
+        <ProjectNav />
+      </div>
+      <h1 className="text-xs text-white/40 py-10">Interactive Design</h1>
 
-        <div className="bg-gradient-to-bl from-gray-900 to-black rounded-3xl py-5 md:py-10 px-5 md:px-10 tracking-tighter ring-1 ring-white/10">
-          <div className="flex justify-between">
-            <div className="flex justify-left gap-4">
-              <Image src={music} alt="music" className="sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-lg" />
-              <div className="flex flex-col">
-                <h1>Elohim</h1>
-                <h2 className="text-white/70">Sondae</h2>
-              </div>
-            </div>
-            <div className="text-3xl">
-              <GiSoundWaves />
-            </div>
-          </div>
-
-          <div className="flex justify-between items-center pt-2">
-            <h1 className="text-xs">0:56</h1>
-            <div className="h-1 md:w-4/5 sm:w-4/6 rounded-full bg-white/70"></div>
-            <h1 className="text-xs">-2:29</h1>
-          </div>
-          <div className="text-3xl pt-2 flex justify-center items-center gap-10">
-            <BsSkipBackwardFill />
-            <GiPauseButton />
-            <BsSkipForwardFill />
-          </div>
-        </div>
     </section>
   );
 }

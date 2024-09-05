@@ -13,6 +13,8 @@ import Projects from "@/pages/Projects";
 import Resume from "@/pages/Resume";
 import YTDownloader from "@/pages/Projects/YTDownloader";
 import ID from "@/pages/Projects/ID";
+import TWM from "@/pages/Projects/TWM";
+import UIshelf from "@/pages/Projects/UIshelf";
 export default function Page(){
 
   return (
@@ -24,6 +26,8 @@ export default function Page(){
           <Route path="projects" element={<Projects />} />
           <Route path="/projects/id" element={<ID />} />
           <Route path="/projects/ytdownloader" element={<YTDownloader />} />
+          <Route path="/projects/twm" element={<TWM />} />
+          <Route path="/projects/uishelf" element={<UIshelf />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
       </div>
