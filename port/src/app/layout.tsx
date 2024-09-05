@@ -17,17 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={twMerge(
-          inter.className,
-          "bg-[#000000] text-white antialiased",
-          "bg-[url('https://www.transparenttextures.com/patterns/blurry-plaid.png')]",
-          "bg-no-repeat",
-          "bg-blend-overlay",
-          "bg-center",
-          "bg-cover",
-        )}
-      >
+      <body className={twMerge(inter.className, "bg-[#000000] text-white antialiased")}>
         {children}
       </body>
     </html>

@@ -11,6 +11,7 @@ import { motion } from 'framer-motion';
 export const ProjectNav = () => {
   const [showCV, setShowCV] = useState(true);
 
+
   const handleSkipForward = () => {
     setShowCV(false);
   }

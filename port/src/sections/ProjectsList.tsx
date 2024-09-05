@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 export const ProjectsList = () => {
   const projects = [
     {
-      title: "Contracted      ",
+      title: "Contracted",
       links: [
         { name: "Trading With Mat Landing Page", to: "TWM" },
       ],
@@ -41,12 +41,12 @@ export const ProjectsList = () => {
           {projects.map(({ title, links }) => (
             <div key={title} className="mb-8">
               <h1 className="text-white/50">{title}</h1>
-              <ul className="flex flex-col gap-2 pt-2">
+              <ul className="flex flex-col gap-0 pt-2">
                 {links.map(({ name, to, icon }) => (
                   <li key={name}>
                     <NavLink
                       to={to}
-                      className="hover:text-white transition duration-300 flex flex-row items-center gap-1"
+                      className="hover:text-white/50 transition duration-300 flex flex-row items-center gap-1"
                     >
                       {icon && <span className="text-white">{icon}</span>}
                       {name}
