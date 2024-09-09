@@ -22,12 +22,11 @@ export const ProjectNav = () => {
 
   return (
     <div className="p-2 tracking-tighter">
-        <div className="bg-black rounded-3xl shadow-[0px_0px_30px_#000000] py-6 px-6 md:px-10">
+        <div className="bg-white/5 ring-1 ring-white/10 rounded-3xl shadow-[0px_0px_30px_#000000] py-6 px-6 md:px-10">
           {showCV && (
             <div>
               <div className="flex justify-between">
                 <div className="flex justify-left gap-4">
-                  <Image src={music} alt="music" className="sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-lg" />
                   <div className="flex flex-col">
                     <motion.h1
                       initial={{ opacity: 0 }}
@@ -37,7 +36,7 @@ export const ProjectNav = () => {
                     >
                       Projects
                     </motion.h1>
-                    <h2 className="text-white/50 text-sm">Milton Mupfumira</h2>
+
                   </div>
                 </div>
                 <div className="text-3xl">
@@ -61,7 +60,6 @@ export const ProjectNav = () => {
             <div>
               <div className="flex justify-between">
                 <div className="flex justify-left gap-4">
-                  <Image src={music} alt="music" className="sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-lg" />
                   <div className="flex flex-col">
                     <motion.h1
                       initial={{ opacity: 0 }}
@@ -71,7 +69,6 @@ export const ProjectNav = () => {
                     >
                       CV
                     </motion.h1>
-                    <h2 className="text-white/50 text-sm">Milton Mupfumira</h2>
                   </div>
                 </div>
                 <div className="text-3xl">

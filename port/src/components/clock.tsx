@@ -13,8 +13,8 @@ const Clock: React.FC = () => {
   }, []);
 
   return (
-    <div className="text-xs font-mono">
-      Hartford, CT {time}
+    <div className="text-xs text-yellow-white font-mono">
+     {time}
     </div>
   );
 };
