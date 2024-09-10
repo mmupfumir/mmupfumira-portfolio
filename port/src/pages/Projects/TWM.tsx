@@ -1,10 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import { MdArrowBackIosNew } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import Image from "next/image";
 import ui3 from "@/assets/ui3.png";
 import ui2 from "@/assets/ui2.png";
+import ui0 from "@/assets/ui0.png";
 import { Testimonials } from "@/sections/Testimonials";
 import { Back } from "@/components/back";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function TWM() {
   return (
@@ -13,7 +16,6 @@ export default function TWM() {
       <div className="py-14 sticky top-0">
         <Back />
       </div>
-
       <h1 className="transition duration-300 flex flex-row items-center gap-1 font-medium">
         Trading with Mat
       </h1>
@@ -31,7 +33,7 @@ export default function TWM() {
         </p>
       </div>
 
-      <div className="p-3 bg-white/5 rounded-md">
+      <div className="p-3 bg-white/10 rounded-md">
         <div className="">
           <h1 className="text-white/50 text-xs">Short Term Goal</h1>
           <div className="text-white pt-2 pb-5 tracking-tight font-semibold leading-5">
@@ -51,6 +53,13 @@ export default function TWM() {
           </h1>
         </div>
       </div>
+      <div className="py-5">
+      <div className=" bg-white/5 ring-4 ring-white/20 rounded-md p-3 flex flex-col gap-5">
+        <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs">
+          <h1>Site will relaunch soon...</h1>
+        </a>
+        </div>
+      </div>
       <Testimonials/>
       <div className="py-5">
         <div className="text-white/80 text-xs md:text-sm py-5 flex flex-col gap-5">
@@ -60,7 +69,7 @@ export default function TWM() {
             trading platform, MT4.
           </p>
         </div>
-        <div className="bg-white/5 rounded-md p-5 flex flex-col gap-5">
+        <div className="bg-white/10 rounded-md p-5 flex flex-col gap-5">
           <Image
             src={ui3}
             alt="ui-1"
@@ -75,7 +84,7 @@ export default function TWM() {
       </div>
       <h1 className="py-5 border-t border-white/10 tracking-tight font-semi-bold ">What's Next?</h1>
       <div className="pb-5">
-        <div className="p-3 bg-white/15 rounded-md">
+        <div className="p-3 bg-white/5 rounded-md">
           <div className="">
             <h1 className="text-white/50 text-xs">Long Term Goal</h1>
             <div className="text-white pt-2 pb-5 tracking-tight font-semibold leading-5">

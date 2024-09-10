@@ -1,9 +1,10 @@
-import { MdArrowBackIosNew } from "react-icons/md";
+import  MdarrowBackIosNew  from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import im from "@/assets/im.png";
 import im2 from "@/assets/im2.png";
 import Image from "next/image";
 import { Back } from "@/components/back";
+import { FaArrowRight } from "react-icons/fa";
 
 /**
  * Work is a Next.js page component that displays a page for a personal project.
@@ -33,7 +34,7 @@ export default function Carfluent() {
         </p>
       </div>
 
-      <div className="p-3 bg-white/5 rounded-md">
+      <div className="p-3 bg-white/10 rounded-md">
         <div className="">
           <h1 className="text-white/50 text-xs">The Art of Debugging</h1>
           <div className="text-white pt-2 pb-5 tracking-tight font-semibold leading-5">
@@ -54,9 +55,17 @@ export default function Carfluent() {
           </h1>
         </div>
       </div>
+      <div className="py-5">
+      <div className=" bg-white/5 ring-4 ring-white/20 rounded-md p-3 flex flex-col gap-5">
+        <a href="https://twm-software-mmupfumirs-projects.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs">
+          <h1>Launch Site</h1>
+          <FaArrowRight/>
+        </a>
+        </div>
+      </div>
 
       <div className="py-5">
-        <div className="bg-white/5 rounded-md p-5 flex flex-col gap-5">
+        <div className="bg-white/10 rounded-md p-5 flex flex-col gap-5">
           <Image
             src={im}
             alt="im-1"

@@ -14,7 +14,7 @@ const Clock: React.FC = () => {
 
   return (
     <div className="text-xs text-yellow-white font-mono">
-     {time}
+     CT {time}
     </div>
   );
 };

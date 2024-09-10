@@ -11,7 +11,7 @@ export const Header = () => {
   if (excludedPaths.includes(location.pathname)) return null;
 
   return (
-    <header className="bg-blackmd:py-10 sm:py-5 sticky top-0">
+    <header className="bg-black md:py-20 sm:py-5 sticky md:border-b border-white/15 top-0">
       <div className="relative container flex items-center justify-between">
           <div className="flex gap-2 items-center ">
             <div className="h-1.5 w-1.5 bg-[#7CB342] shadow-[0px_0px_10px_#7CB342] animate-pulse rounded-full"></div>

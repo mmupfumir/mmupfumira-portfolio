@@ -7,7 +7,7 @@ import Image from "next/image";
 export const ProjectsList = () => {
   const projects = [
     {
-      title: "Ideas",
+      title: "Fun Ideas",
       links: [
         {
           name: "Music Inspired Nav",
@@ -21,7 +21,7 @@ export const ProjectsList = () => {
   return (
     <section>
       <div className="tracking-tighter text-lg">
-        <h1 className="text-white/80 text-4xl font-sans font-semibold pt-5">Craft</h1>
+        <h1 className="text-white/80 text-4xl font-sans font-semibold sm:pt-5 md:pt-10">Craft</h1>
         <p className="text-white/50 sm:text-xs md:text-sm py-5 sm:pr-10 md:pr-32 tracking-normal">
           A centralized hub for my projects and ideas. In this space you will find contracted work, side projects and my sandbox experiments.
         </p>
@@ -33,7 +33,7 @@ export const ProjectsList = () => {
               <h1>Trading with Mat</h1>
               <h1 className='text-white/50 text-xs'>Now</h1>
             </div>
-            <div className='bg-white/5 rounded-md hover:bg-white/10 p-5 md:p-10'>
+            <div className='bg-white/10 ring-1 ring-white/15 rounded-md hover:bg-white/5 p-5'>
               <Image
                 src={test} alt="Testimonials"
                 className="rounded-lg sm:shadow-[0px_10px_20px_#000000] md:shadow-[0px_20px_30px_#000000]"/>
@@ -45,7 +45,7 @@ export const ProjectsList = () => {
               <h1>Carfluent</h1>
               <h1 className='text-white/50 text-xs'>July 2024</h1>
             </div>
-            <div className='bg-white/5 rounded-lg hover:bg-white/10 p-5 md:p-10'>
+            <div className='bg-white/10 ring-1 ring-white/15 rounded-lg hover:bg-white/5 p-5'>
               <Image
                 src={carfl} alt="Carfluent"
                 className="rounded-lg sm:shadow-[0px_10px_20px_#000000] md:shadow-[0px_20px_30px_#000000]"/>
