@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { MdArrowBackIosNew } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { ProjectNav } from "@/components/projectnav";
