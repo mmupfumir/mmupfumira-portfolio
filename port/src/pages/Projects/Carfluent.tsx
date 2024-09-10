@@ -1,5 +1,4 @@
-import  MdarrowBackIosNew  from "react-icons/md";
-import { NavLink } from "react-router-dom";
+/* eslint-disable @next/next/no-img-element */
 import im from "@/assets/im.png";
 import im2 from "@/assets/im2.png";
 import Image from "next/image";

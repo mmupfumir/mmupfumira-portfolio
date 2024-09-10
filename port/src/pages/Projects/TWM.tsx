@@ -1,13 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import { MdArrowBackIosNew } from "react-icons/md";
-import { NavLink } from "react-router-dom";
 import Image from "next/image";
 import ui3 from "@/assets/ui3.png";
 import ui2 from "@/assets/ui2.png";
-import ui0 from "@/assets/ui0.png";
 import { Testimonials } from "@/sections/Testimonials";
 import { Back } from "@/components/back";
-import { FaArrowRight } from "react-icons/fa";
+
 
 export default function TWM() {
   return (

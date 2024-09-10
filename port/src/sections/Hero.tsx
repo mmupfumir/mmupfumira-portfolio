@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from 'framer-motion';
-import  { ProjectNav }  from '@/components/projectnav';
 import Image from "next/image";
 import headshot from "@/assets/headshot.jpg";
 import { NavLink } from 'react-router-dom';
